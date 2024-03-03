@@ -15,3 +15,5 @@ btn.addEventListener('click',()=>{
 getRandomNumber= ()=>{
     return Math.random() ;
 }
+
+console.log("Access Granted!");
