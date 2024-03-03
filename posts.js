@@ -9,6 +9,16 @@ router.get('/',(req,res)=>{
 //     res.send('Specific Post') ;
 // })
 
+const greeting = ()=>{
+    console.log('Hello World') ;
+}
+const salute = ()=>{
+    console.log('Salaam Shabji') ;
+}
+const argue = ()=>{
+    console.log('Please behave!') ;
+}
+
 router.post('/',(req,res)=>{
     const posts = new Post({
         title: req.body.title ,
@@ -17,7 +27,7 @@ router.post('/',(req,res)=>{
     posts.save().then(data=>{
         res.json(data) ;
     }).catch(err=>{
-        res.json({message:error})
+        res.json({message:error}) 
     })
 })
 
