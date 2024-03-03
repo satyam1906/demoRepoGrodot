@@ -17,3 +17,5 @@ getRandomNumber= ()=>{
 }
 
 console.log("Access Granted!");
+
+console.log("callback!");
