@@ -9,6 +9,10 @@ function evenOddProgram(n){
     
 } 
 
+let x = 100;
+let y = 20;
+let sub = x - y;
+console.log(sub);
 
 const number = evenOddProgram(45);
 console.log(number);
